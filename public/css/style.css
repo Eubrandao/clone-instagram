@@ -37,7 +37,7 @@ width: 50%;
 }
 
 .instagram-logo{
-    height: 10rem;
+    height: 25rem;
 }
 
 .profile{
@@ -111,5 +111,51 @@ width: 50%;
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 1.3rem;
+    padding: 1.3rem 0;
+}
+
+.download{
+
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.app-download{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+}
+
+
+.app-download:nth-child(1){
+    background-image: url('../img/teste.png');
+}
+
+.app-download:nth-child(2){
+    background-image: url('../img/buttonGoogle.png');
+   width: 120px;
+}
+
+
+@media(max-width:1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width:650px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
 }
